@@ -35,3 +35,76 @@ This project presents the design and performance evaluation of a compact Ultra-W
 - **Antenna Type:** Compact UWB Microstrip Antenna
 - **Analysis:** S11, Radiation Pattern, Peak Gain, Radiation Efficiency, SAR
 - **Application:** Breast Tumor Detection using Microwave Imaging
+
+## 📷 Proposed Antenna Design
+
+<p align="center">
+  <img src="antenna_top.png" width="45%">
+  <img src="antenna_bottom.png" width="45%">
+</p>
+
+---
+
+## ⚙️ Working Principle
+
+The proposed Ultra-Wideband (UWB) microstrip antenna is designed to transmit and receive microwave signals for breast tumor detection. Due to the difference in dielectric properties between healthy and cancerous tissues, the reflected electromagnetic waves vary in intensity. These variations can be analyzed to identify the presence of a tumor. The antenna's performance is evaluated through CST Studio Suite using parameters such as S11 (Return Loss), Radiation Pattern, Peak Gain, Radiation Efficiency, and Specific Absorption Rate (SAR).
+
+---
+
+## 📊 Simulation Results
+
+- **S11 (Return Loss):** Demonstrates excellent impedance matching across the Ultra-Wideband frequency range.
+- **Radiation Pattern:** Provides stable omnidirectional radiation characteristics suitable for microwave imaging.
+- **Peak Gain:** Achieves sufficient gain for reliable signal transmission and reception.
+- **Radiation Efficiency:** Maintains high efficiency throughout the operating frequency band.
+- **SAR Analysis:** Confirms that electromagnetic radiation levels remain within international safety standards.
+
+---
+
+## 📈 Performance Parameters
+
+| Parameter | Description |
+|-----------|-------------|
+| **S11 (Return Loss)** | Evaluates impedance matching and operating bandwidth. |
+| **Radiation Pattern** | Illustrates the antenna's radiation characteristics. |
+| **Peak Gain** | Measures the antenna's maximum signal strength. |
+| **Radiation Efficiency** | Indicates how effectively the antenna radiates power. |
+| **SAR Analysis** | Verifies electromagnetic radiation is within international safety limits. |
+
+---
+
+## 🚀 Future Scope
+
+- Fabricate and experimentally validate the antenna prototype.
+- Integrate the antenna into portable microwave breast imaging systems.
+- Enhance detection accuracy using AI and machine learning techniques.
+- Improve antenna performance for higher-resolution medical imaging.
+- Extend the design for other biomedical imaging applications.
+
+## 📈 S11 (Return Loss)
+
+![S11](s11_plot.png)
+
+---
+
+## 📡 Radiation Pattern
+
+![Radiation Pattern](radiation_pattern.png)
+
+---
+
+## ⚡ Radiation Efficiency
+
+![Radiation Efficiency](radiation_efficiency.png)
+
+---
+
+## 📶 Peak Gain
+
+![Peak Gain](peak_gain.png)
+
+---
+
+## 🛡️ SAR Analysis
+
+![SAR](sar_analysis.png)
